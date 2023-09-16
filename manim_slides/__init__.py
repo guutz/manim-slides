@@ -60,3 +60,5 @@ new_module.__dict__.update(
         "__all__": ("__version__", "ManimSlidesMagic", "Slide", "ThreeDSlide"),
     }
 )
+
+print("manim_slides version: ", __version__)

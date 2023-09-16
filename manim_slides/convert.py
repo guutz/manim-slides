@@ -291,7 +291,7 @@ class RevealJS(Converter):
     shuffle: JsBool = JsBool.false
     fragments: JsBool = JsBool.true
     fragment_in_url: JsBool = JsBool.true
-    embedded: JsBool = JsBool.false
+    embedded: JsBool = JsBool.true
     help: JsBool = JsBool.true
     pause: JsBool = JsBool.true
     show_notes: JsBool = JsBool.false
